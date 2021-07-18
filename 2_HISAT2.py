@@ -5,10 +5,9 @@ import Queue,threading,time
 # main
 #################################
 
-#Step 1: Align the read on the bovine reference genome
-my_path = "/disk10/1.SH_chicken_mRNA_ChungangUniv_2nd/"
+my_path = "/RNA-seqProtocol/"
 data_path = "2.Trimmomatic"
-Program = "/disk11/1.Sohyun_ChickenRNAseq_ChungangUniv/hisat2-2.1.0/hisat2"
+Program = "/hisat2-2.1.0/hisat2"
 os.chdir(my_path + data_path)
 file = glob.glob("*R1.paired.fq")
 
